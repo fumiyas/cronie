@@ -117,13 +117,6 @@ variables in a crontab to the correct values of the mail headers of those
 names.
 .PP
 The
-.I CRON_TZ
-variable specifies the time zone specific for the cron table.  The user
-should enter a time according to the specified time zone into the table.
-The time used for writing into a log file is taken from the local time
-zone, where the daemon is running.
-.PP
-The
 .I MLS_LEVEL
 environment variable provides support for multiple per-job SELinux
 security contexts in the same crontab.  By default, cron jobs execute
